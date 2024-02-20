@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewDemo.PickerDemo" Padding="40">
+    <StackLayout>
+        <Picker x:Name="contactName" Title="Contact Info" SelectedIndexChanged="contactName_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Email</x:String>
+                <x:String>SMS</x:String>
+            </Picker.Items>
+            
+        </Picker>
+    </StackLayout>
+</ContentPage>

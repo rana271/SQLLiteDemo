@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewDemo.Design">
+    <ContentPage.Content>
+        <!--<StackLayout BackgroundColor="Yellow"  Orientation="Horizontal">
+            <Label Text="Welcome to Xamarin.Forms!"
+               Padding="20,0"/>
+            <Label Text="Update" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to MAUI!"
+               HorizontalOptions="EndAndExpand"/>
+        </StackLayout>-->
+
+        <StackLayout BackgroundColor="Yellow" Orientation="Horizontal">
+            <Label Text="Welcome to Xamarin.Forms!" Padding="20,0" 
+               />
+            <Label Text="Update" HorizontalOptions="CenterAndExpand"  />
+            <Label Text="Welcome to MAUI!" HorizontalOptions="EndAndExpand"
+               />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
